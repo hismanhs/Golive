@@ -7,13 +7,15 @@
     <script src="https://cdn.agora.io/sdk/release/AgoraRTCSDK-3.6.3.js"></script>
 </head>
 <body>
-    <h1>
-        Video Call<br>
-    </h1>
-    <h4>Local video</h4>
-    <div id="me"></div>
-    <h4>Remote video</h4>
-    <div id="remote-container">
+    <div class="row">
+        <div class="column" style="background-color:#f4f5f9;">
+            <h4>Local video</h4>
+            <div id="me"></div>
+        </div>
+        <div class="column" style="background-color:#f4f5f9;border-radius:'2px,border-color:'red'">
+            <h4>Remote video</h4>
+            <div id="remote-container"></div>
+        </div>
     </div>
     <script src="./scripts/script.js"></script>
     <script src="./AgoraRTCSDK-3.6.3.js"></script>

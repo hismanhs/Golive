@@ -3,8 +3,9 @@
 }
 h1,h4{
     text-align: center;
+    margin-top:2px;
 }
-#me{
+#me,#remote-container{
     position: relative;
     width: 50%;
     margin: 0 auto;
@@ -13,10 +14,33 @@ h1,h4{
 #me video{
     position: relative !important;
 }
-#remote-container{
-    display: flex;
-}
+
 #remote-container video{
-    height: auto;
     position: relative !important;
+
 }
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 60px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
