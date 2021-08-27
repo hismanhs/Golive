@@ -38,8 +38,8 @@ client.init("783432fc9ff04b08ad36998136e48c56", function() {
 });
 
 client.join(
-    null,
-    "myChannel",
+    "006783432fc9ff04b08ad36998136e48c56IAAr1m9YCkbYIhvrTE0pooRkCNU+0+VXcPREZ3PdqmVoXxB4Li4AAAAAEADn8NlKo58qYQEAAQCinyph",
+    "hisman",
     USER_ID,
     function(uid) {
          console.log("Publish UID",uid);
