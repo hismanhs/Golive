@@ -38,7 +38,7 @@ client.init("783432fc9ff04b08ad36998136e48c56", function() {
 });
 
 client.join(
-    "006783432fc9ff04b08ad36998136e48c56IAAr1m9YCkbYIhvrTE0pooRkCNU+0+VXcPREZ3PdqmVoXxB4Li4AAAAAEADn8NlKo58qYQEAAQCinyph",
+    "006783432fc9ff04b08ad36998136e48c56IAADY7W2avG8efNNfBYOXHTLXysZG0wxnd4KKhx5wSUmEBB4Li4AAAAAEAALrnX44oUuYQEAAQDhhS5h",
     "hisman",
     USER_ID,
     function(uid) {
